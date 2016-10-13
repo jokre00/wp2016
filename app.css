@@ -2,14 +2,38 @@ body {
   background-color: rgb(20, 20, 20);
 }
 
+#button{
+    width:150px;
+    height:auto;
+    margin: 0 auto;
+    color:lavender;
+    text-align: center;
+    border:1px dotted rgba(200, 200, 200, 0.3);
+    background-color:rgba(100, 100, 100, 0.2);
+    font-size: 24;
+    font-family:微軟正黑體;
+    font-style: normal;
+    cursor:hand;
+}
+
+#button:hover{
+    background-color: lavender;
+    color: rgb(20, 20, 20);
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
 table {
   background-color:rgba(100, 100, 100, 0.2);
   color: lavender ;
   width:250;
   height:400;
+  margin: 0 auto;
   font-size: 16;
   font-family:微軟正黑體;
   font-style: normal;
   text-align: center;
   border:1px dotted rgba(200, 200, 200, 0.3);
+  display:none;
 }
